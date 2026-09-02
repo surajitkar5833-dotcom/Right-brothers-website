@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Right Brothers [Shree Shyam Print] - Garment printing, DTF, HD, UV, Puff, Vinyl, custom patches, screen printing and tracing in Kolkata.">
+<meta name="theme-color" content="#0b0b0b">
+<title>Right Brothers | Shree Shyam Print</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#080808;color:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{position:sticky;top:0;z-index:100;background:rgba(12,12,12,.94);backdrop-filter:blur(12px);border-bottom:1px solid #292929;padding:12px 5%}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.logo{font-size:21px;font-weight:900;letter-spacing:.5px}.logo span{color:#e63946}.logo small{display:block;font-size:9px;color:#999;letter-spacing:1.5px}
+nav{display:flex;gap:18px;font-size:14px;color:#ddd}
+nav a:hover{color:#e63946}
+.lang{display:flex;gap:4px}.lang button{background:#1a1a1a;color:#fff;border:1px solid #444;border-radius:6px;padding:6px 8px;cursor:pointer}
+.lang button:hover{border-color:#e63946}
+.hero{padding:90px 7% 80px;background:radial-gradient(circle at 85% 15%,#55131b,transparent 35%),radial-gradient(circle at 10% 80%,#251014,transparent 30%),#080808}
+.badge{display:inline-block;border:1px solid #5a3035;background:#171010;color:#f2a5aa;border-radius:999px;padding:7px 12px;font-size:12px;margin-bottom:18px}
+.hero h1{font-size:clamp(40px,7vw,76px);line-height:1.04;max-width:900px}
+.hero h1 span{color:#e63946}
+.hero p{max-width:720px;color:#c7c7c7;margin:22px 0;font-size:18px}
+.btn{display:inline-block;padding:13px 19px;border-radius:8px;font-weight:800;margin:5px;transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.red{background:#e63946;color:#fff}.outline{border:1px solid #666;background:#111}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:760px;margin-top:35px}
+.stat{background:#111;border:1px solid #292929;border-radius:12px;padding:18px}.stat b{display:block;font-size:24px}.stat span{color:#999;font-size:12px}
+section{padding:72px 7%}
+.title{text-align:center;margin-bottom:38px}.title h2{font-size:36px;line-height:1.15}.title p{color:#aaa;margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.card{background:#131313;border:1px solid #292929;border-radius:14px;padding:24px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#e63946}
+.icon{font-size:32px;margin-bottom:10px}.card h3{margin-bottom:7px}.card p{color:#aaa;font-size:14px}
+.about{background:#101010}
+.features .card{min-height:145px}
+.process{background:#0d0d0d}
+.step{position:relative}.step b{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border-radius:50%;background:#e63946;margin-bottom:12px}
+.order{background:linear-gradient(135deg,#170b0d,#0d0d0d);border-top:1px solid #2a1719;border-bottom:1px solid #2a1719}
+.orderbox{max-width:900px;margin:auto;text-align:center}
+.orderbox h2{font-size:36px}.orderbox p{color:#bbb;margin:10px auto 20px;max-width:650px}
+.contact{background:#151515}
+.contactbox{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.info{background:#0d0d0d;border-radius:14px;padding:25px;border:1px solid #292929}
+.info p{margin:12px 0;color:#ccc}
+.phone a{display:block;padding:9px 0;color:#ddd}.phone a:hover{color:#e63946}
+.map{width:100%;height:250px;border:0;border-radius:12px;margin-top:15px}
+.floatwa{position:fixed;right:18px;bottom:18px;z-index:200;background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:27px;box-shadow:0 8px 25px #000}
+footer{text-align:center;padding:28px;background:#060606;color:#888;font-size:13px}
+.footerlinks{margin-top:10px}.footerlinks a{margin:0 8px;color:#bbb}
+@media(max-width:760px){
+ nav{display:none}.hero{padding-top:65px}.stats{grid-template-columns:1fr}
+ .contactbox{grid-template-columns:1fr}.title h2,.orderbox h2{font-size:30px}
+ section{padding:58px 6%}.logo{font-size:18px}.lang button{padding:5px 6px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="nav">
+<div class="logo">RIGHT <span>BROTHERS</span><small>SHREE SHYAM PRINT</small></div>
+<nav><a href="#services" data-i="navServices">Services</a><a href="#about" data-i="navAbout">About</a><a href="#process" data-i="navProcess">How It Works</a><a href="#contact" data-i="navContact">Contact</a></nav>
+<div class="lang"><button onclick="setLang('en')">EN</button><button onclick="setLang('bn')">বাংলা</button><button onclick="setLang('hi')">हिन्दी</button></div>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="badge" id="eyebrow">GARMENT PRINTING • STICKERS • PATCHES</div>
+<h1 id="heroTitle">Premium Printing & <span>Sticker Solutions</span></h1>
+<p id="heroText">All types of garment stickers, patches, screen printing and tracing — quality work under one roof.</p>
+<a class="btn red" id="waBtn" href="https://wa.me/919330993359">💬 WhatsApp Order</a>
+<a class="btn outline" id="callBtn" href="tel:+918013314518">📞 Call Now</a>
+<div class="stats">
+<div class="stat"><b>10+</b><span id="stat1">Printing & sticker solutions</span></div>
+<div class="stat"><b>3</b><span id="stat2">Languages supported</span></div>
+<div class="stat"><b>1</b><span id="stat3">Place for your custom work</span></div>
+</div>
+</section>
+
+<section id="services">
+<div class="title"><h2 id="serviceTitle">Our Services</h2><p id="serviceSub">Professional solutions for garments, fashion & custom printing.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🔥</div><h3>DTF Sticker</h3><p id="s1">High-quality DTF transfers for garments.</p></div>
+<div class="card"><div class="icon">✨</div><h3>HD Sticker</h3><p id="s2">Sharp, detailed and premium garment transfers.</p></div>
+<div class="card"><div class="icon">🧵</div><h3>Custom Patch</h3><p id="s3">Custom patches made as per your design.</p></div>
+<div class="card"><div class="icon">💧</div><h3>UV Sticker</h3><p id="s4">Durable UV sticker solutions for custom needs.</p></div>
+<div class="card"><div class="icon">🎨</div><h3>Puff Sticker</h3><p id="s5">Raised 3D-style puff effects for garments.</p></div>
+<div class="card"><div class="icon">⚡</div><h3>2-in-1 Sticker</h3><p id="s6">Creative 2-in-1 transfer solutions.</p></div>
+<div class="card"><div class="icon">👕</div><h3>Vinyl</h3><p id="s7">Custom vinyl work for garments and designs.</p></div>
+<div class="card"><div class="icon">🖨️</div><h3>Screen Printing</h3><p id="s8">Professional screen printing for garment orders.</p></div>
+<div class="card"><div class="icon">📐</div><h3>Tracing</h3><p id="s9">Tracing services for printing and production work.</p></div>
+<div class="card"><div class="icon">🧺</div><h3>Towel</h3><p id="s10">Custom towel-related printing and work.</p></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="title"><h2 id="aboutTitle">Why Right Brothers?</h2><p id="aboutText">One place for garment printing and sticker requirements.</p></div>
+<div class="grid features">
+<div class="card"><h3 id="f1t">Quality First</h3><p id="f1">We focus on clean finishing and professional output.</p></div>
+<div class="card"><h3 id="f2t">Custom Orders</h3><p id="f2">Bring your idea or design — custom work is available.</p></div>
+<div class="card"><h3 id="f3t">Multiple Solutions</h3><p id="f3">DTF, HD, UV, Puff, Vinyl, patches, screen printing and tracing.</p></div>
+<div class="card"><h3 id="f4t">Easy Ordering</h3><p id="f4">Send your design on WhatsApp and discuss your order directly.</p></div>
+</div>
+</section>
+
+<section class="process" id="process">
+<div class="title"><h2 id="processTitle">How It Works</h2><p id="processSub">Simple process from design to order.</p></div>
+<div class="grid">
+<div class="card step"><b>1</b><h3 id="p1t">Send Your Design</h3><p id="p1">Share your design, logo or requirements on WhatsApp.</p></div>
+<div class="card step"><b>2</b><h3 id="p2t">Discuss & Confirm</h3><p id="p2">Choose the printing method, quantity and finishing.</p></div>
+<div class="card step"><b>3</b><h3 id="p3t">Production</h3><p id="p3">Your order is prepared with attention to finishing.</p></div>
+<div class="card step"><b>4</b><h3 id="p4t">Delivery / Pickup</h3><p id="p4">Discuss delivery or pickup details directly with us.</p></div>
+</div>
+</section>
+
+<section class="order">
+<div class="orderbox">
+<h2 id="orderTitle">Need a Custom Order?</h2>
+<p id="orderText">Send your design and order requirements on WhatsApp. We will discuss the details with you.</p>
+<a class="btn red" href="https://wa.me/919330993359?text=Hello%20Right%20Brothers%2C%20I%20want%20to%20place%20an%20order.">💬 <span id="orderBtn">Start WhatsApp Order</span></a>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="title"><h2 id="contactTitle">Contact Us</h2><p id="contactSub">Right Brothers [Shree Shyam Print]</p></div>
+<div class="contactbox">
+<div class="info">
+<h3 id="mobileTitle">📞 Mobile & WhatsApp</h3>
+<div class="phone">
+<a href="tel:+918013314518">+91 80133 14518</a>
+<a href="tel:+918420910140">+91 84209 10140</a>
+<a href="tel:+917439047222">+91 74390 47222</a>
+<a href="tel:+919330993359">+91 93309 93359</a>
+</div>
+<a class="btn red" href="https://wa.me/919330993359">WhatsApp: +91 93309 93359</a>
+</div>
+<div class="info">
+<h3 id="addressTitle">📍 Address</h3>
+<p>Rupraj Plaza, Laundry More,<br>79, Panchanantala Rd, Sukchar,<br>Kolkata, West Bengal 700115</p>
+<a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=Rupraj+Plaza+Laundry+More+79+Panchanantala+Road+Sukchar+Kolkata+700115" target="_blank">📍 <span id="mapBtn">Open in Google Maps</span></a>
+<a class="btn outline" href="https://www.facebook.com/share/18ChChYTzi/" target="_blank">Facebook</a>
+</div>
+</div>
+</section>
+</main>
+
+<a class="floatwa" href="https://wa.me/919330993359" aria-label="WhatsApp">💬</a>
+
+<footer>
+© 2026 Right Brothers [Shree Shyam Print] — All Rights Reserved.
+<div class="footerlinks"><a href="#services" id="fl1">Services</a><a href="#contact" id="fl2">Contact</a><a href="https://wa.me/919330993359" id="fl3">WhatsApp</a></div>
+</footer>
+
+<script>
+const data={
+en:{
+eyebrow:"GARMENT PRINTING • STICKERS • PATCHES",hero:"Premium Printing & <span>Sticker Solutions</span>",text:"All types of garment stickers, patches, screen printing and tracing — quality work under one roof.",
+navServices:"Services",navAbout:"About",navProcess:"How It Works",navContact:"Contact",
+stat1:"Printing & sticker solutions",stat2:"Languages supported",stat3:"Place for your custom work",
+services:"Our Services",sub:"Professional solutions for garments, fashion & custom printing.",
+s1:"High-quality DTF transfers for garments.",s2:"Sharp, detailed and premium garment transfers.",s3:"Custom patches made as per your design.",s4:"Durable UV sticker solutions for custom needs.",s5:"Raised 3D-style puff effects for garments.",s6:"Creative 2-in-1 transfer solutions.",s7:"Custom vinyl work for garments and designs.",s8:"Professional screen printing for garment orders.",s9:"Tracing services for printing and production work.",s10:"Custom towel-related printing and work.",
+about:"Why Right Brothers?",aboutText:"One place for garment printing and sticker requirements.",
+f1t:"Quality First",f1:"We focus on clean finishing and professional output.",f2t:"Custom Orders",f2:"Bring your idea or design — custom work is available.",f3t:"Multiple Solutions",f3:"DTF, HD, UV, Puff, Vinyl, patches, screen printing and tracing.",f4t:"Easy Ordering",f4:"Send your design on WhatsApp and discuss your order directly.",
+processTitle:"How It Works",processSub:"Simple process from design to order.",p1t:"Send Your Design",p1:"Share your design, logo or requirements on WhatsApp.",p2t:"Discuss & Confirm",p2:"Choose the printing method, quantity and finishing.",p3t:"Production",p3:"Your order is prepared with attention to finishing.",p4t:"Delivery / Pickup",p4:"Discuss delivery or pickup details directly with us.",
+orderTitle:"Need a Custom Order?",orderText:"Send your design and order requirements on WhatsApp. We will discuss the details with you.",orderBtn:"Start WhatsApp Order",
+contact:"Contact Us",contactSub:"Right Brothers [Shree Shyam Print]",mobileTitle:"📞 Mobile & WhatsApp",addressTitle:"📍 Address",mapBtn:"Open in Google Maps",fl1:"Services",fl2:"Contact",fl3:"WhatsApp"
+},
+bn:{
+eyebrow:"গার্মেন্টস প্রিন্টিং • স্টিকার • প্যাচ",hero:"প্রিমিয়াম প্রিন্টিং ও <span>স্টিকার সলিউশন</span>",text:"সব ধরনের গার্মেন্টস স্টিকার, প্যাচ, স্ক্রিন প্রিন্টিং ও ট্রেসিং—সবকিছু এক ছাদের নিচে।",
+navServices:"পরিষেবা",navAbout:"আমাদের সম্পর্কে",navProcess:"কীভাবে কাজ হয়",navContact:"যোগাযোগ",
+stat1:"প্রিন্টিং ও স্টিকার সলিউশন",stat2:"ভাষায় পরিষেবা",stat3:"কাস্টম কাজের জন্য এক ঠিকানা",
+services:"আমাদের পরিষেবা",sub:"গার্মেন্টস, ফ্যাশন ও কাস্টম প্রিন্টিংয়ের জন্য প্রফেশনাল সমাধান।",
+s1:"গার্মেন্টসের জন্য উচ্চমানের DTF ট্রান্সফার।",s2:"শার্প ও প্রিমিয়াম HD গার্মেন্টস ট্রান্সফার।",s3:"আপনার ডিজাইন অনুযায়ী কাস্টম প্যাচ।",s4:"কাস্টম কাজের জন্য টেকসই UV স্টিকার।",s5:"গার্মেন্টসে 3D-এর মতো উঁচু Puff effect।",s6:"ক্রিয়েটিভ 2-in-1 ট্রান্সফার সলিউশন।",s7:"গার্মেন্টস ও ডিজাইনের জন্য কাস্টম Vinyl কাজ।",s8:"গার্মেন্টস অর্ডারের জন্য প্রফেশনাল Screen Printing।",s9:"প্রিন্টিং ও প্রোডাকশনের জন্য Tracing পরিষেবা।",s10:"কাস্টম তোয়ালে সম্পর্কিত প্রিন্টিং ও কাজ।",
+about:"কেন Right Brothers?",aboutText:"গার্মেন্টস প্রিন্টিং ও স্টিকারের জন্য এক নির্ভরযোগ্য ঠিকানা।",
+f1t:"কোয়ালিটিকে গুরুত্ব",f1:"পরিষ্কার ফিনিশিং ও প্রফেশনাল আউটপুটে আমরা গুরুত্ব দিই।",f2t:"কাস্টম অর্ডার",f2:"আপনার আইডিয়া বা ডিজাইন দিন—কাস্টম কাজের সুবিধা আছে।",f3t:"একাধিক সমাধান",f3:"DTF, HD, UV, Puff, Vinyl, Patch, Screen Printing ও Tracing।",f4t:"সহজে অর্ডার",f4:"WhatsApp-এ ডিজাইন পাঠিয়ে সরাসরি অর্ডারের কথা বলুন।",
+processTitle:"কীভাবে কাজ হয়",processSub:"ডিজাইন থেকে অর্ডার পর্যন্ত সহজ প্রক্রিয়া।",p1t:"ডিজাইন পাঠান",p1:"WhatsApp-এ আপনার ডিজাইন, লোগো বা কাজের প্রয়োজনীয়তা পাঠান।",p2t:"আলোচনা ও নিশ্চিত",p2:"প্রিন্টিং পদ্ধতি, পরিমাণ ও ফিনিশিং ঠিক করুন।",p3t:"প্রোডাকশন",p3:"ফিনিশিংয়ের দিকে নজর রেখে আপনার অর্ডার প্রস্তুত করা হবে।",p4t:"ডেলিভারি / পিকআপ",p4:"ডেলিভারি বা পিকআপের বিষয়টি সরাসরি আমাদের সঙ্গে আলোচনা করুন।",
+orderTitle:"কাস্টম অর্ডার লাগবে?",orderText:"WhatsApp-এ আপনার ডিজাইন ও অর্ডারের প্রয়োজনীয়তা পাঠান। আমরা আপনার সঙ্গে বিস্তারিত আলোচনা করব।",orderBtn:"WhatsApp-এ অর্ডার শুরু করুন",
+contact:"যোগাযোগ করুন",contactSub:"Right Brothers [Shree Shyam Print]",mobileTitle:"📞 মোবাইল ও WhatsApp",addressTitle:"📍 ঠিকানা",mapBtn:"Google Maps-এ দেখুন",fl1:"পরিষেবা",fl2:"যোগাযোগ",fl3:"WhatsApp"
+},
+hi:{
+eyebrow:"गारमेंट प्रिंटिंग • स्टिकर • पैच",hero:"प्रीमियम प्रिंटिंग और <span>स्टिकर सॉल्यूशन्स</span>",text:"सभी प्रकार के गारमेंट स्टिकर, पैच, स्क्रीन प्रिंटिंग और ट्रेसिंग—एक ही जगह।",
+navServices:"सेवाएं",navAbout:"हमारे बारे में",navProcess:"कैसे काम करता है",navContact:"संपर्क",
+stat1:"प्रिंटिंग और स्टिकर समाधान",stat2:"भाषाओं में सेवा",stat3:"कस्टम काम के लिए एक जगह",
+services:"हमारी सेवाएं",sub:"गारमेंट, फैशन और कस्टम प्रिंटिंग के लिए प्रोफेशनल समाधान।",
+s1:"गारमेंट के लिए हाई-क्वालिटी DTF ट्रांसफर।",s2:"शार्प और प्रीमियम HD गारमेंट ट्रांसफर।",s3:"आपके डिजाइन के अनुसार कस्टम पैच।",s4:"कस्टम जरूरतों के लिए टिकाऊ UV स्टिकर।",s5:"गारमेंट के लिए 3D जैसा Puff effect।",s6:"क्रिएटिव 2-in-1 ट्रांसफर समाधान।",s7:"गारमेंट और डिजाइन के लिए कस्टम Vinyl काम।",s8:"गारमेंट ऑर्डर के लिए प्रोफेशनल Screen Printing।",s9:"प्रिंटिंग और प्रोडक्शन के लिए Tracing सेवा।",s10:"कस्टम तौलिया से जुड़ा प्रिंटिंग और काम।",
+about:"Right Brothers क्यों?",aboutText:"गारमेंट प्रिंटिंग और स्टिकर की जरूरतों के लिए एक भरोसेमंद जगह।",
+f1t:"क्वालिटी सबसे पहले",f1:"साफ फिनिशिंग और प्रोफेशनल आउटपुट पर हमारा ध्यान रहता है।",f2t:"कस्टम ऑर्डर",f2:"अपना आइडिया या डिजाइन दें—कस्टम काम उपलब्ध है।",f3t:"कई समाधान",f3:"DTF, HD, UV, Puff, Vinyl, Patch, Screen Printing और Tracing।",f4t:"आसान ऑर्डर",f4:"WhatsApp पर डिजाइन भेजकर सीधे ऑर्डर की बात करें।",
+processTitle:"कैसे काम करता है",processSub:"डिजाइन से ऑर्डर तक आसान प्रक्रिया।",p1t:"डिजाइन भेजें",p1:"WhatsApp पर अपना डिजाइन, लोगो या जरूरत भेजें।",p2t:"बात करें और कन्फर्म करें",p2:"प्रिंटिंग तरीका, मात्रा और फिनिशिंग तय करें।",p3t:"प्रोडक्शन",p3:"फिनिशिंग पर ध्यान देकर आपका ऑर्डर तैयार किया जाएगा।",p4t:"डिलीवरी / पिकअप",p4:"डिलीवरी या पिकअप की जानकारी सीधे हमसे तय करें।",
+orderTitle:"कस्टम ऑर्डर चाहिए?",orderText:"WhatsApp पर अपना डिजाइन और ऑर्डर की जरूरत भेजें। हम आपसे पूरी जानकारी पर बात करेंगे।",orderBtn:"WhatsApp ऑर्डर शुरू करें",
+contact:"संपर्क करें",contactSub:"Right Brothers [Shree Shyam Print]",mobileTitle:"📞 मोबाइल और WhatsApp",addressTitle:"📍 पता",mapBtn:"Google Maps में देखें",fl1:"सेवाएं",fl2:"संपर्क",fl3:"WhatsApp"
+}
+};
+function setLang(l){
+ const d=data[l];
+ Object.keys(d).forEach(k=>{
+   const el=document.getElementById(k);
+   if(el) el.innerHTML=d[k];
+ });
+ document.documentElement.lang=l==='bn'?'bn':l==='hi'?'hi':'en';
+ localStorage.setItem('rb_lang',l);
+}
+setLang(localStorage.getItem('rb_lang')||'en');
+</script>
+</body>
+</html>
