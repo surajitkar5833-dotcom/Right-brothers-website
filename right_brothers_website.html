@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Right Brothers | Shree Shyam Print</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#0b0b0b;color:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{position:sticky;top:0;z-index:10;background:#111;border-bottom:1px solid #333;padding:14px 6%}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:15px}
+.logo{font-size:22px;font-weight:800}.logo span{color:#e63946}
+nav{display:flex;gap:20px;font-size:14px}
+.lang{display:flex;gap:5px}.lang button{background:#222;color:#fff;border:1px solid #555;border-radius:5px;padding:5px 8px;cursor:pointer}
+.hero{padding:85px 7%;background:radial-gradient(circle at 80% 20%,#4b1118,transparent 40%),#0b0b0b}
+.hero h1{font-size:clamp(38px,7vw,72px);line-height:1.05;max-width:850px}
+.hero h1 span{color:#e63946}
+.hero p{max-width:700px;color:#ccc;margin:22px 0;font-size:18px}
+.btn{display:inline-block;padding:13px 20px;border-radius:7px;font-weight:bold;margin:5px}
+.red{background:#e63946}.outline{border:1px solid #777}
+section{padding:65px 7%}.title{text-align:center;margin-bottom:35px}.title h2{font-size:35px}.title p{color:#aaa}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.card{background:#151515;border:1px solid #2b2b2b;border-radius:12px;padding:25px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#e63946}
+.icon{font-size:35px;margin-bottom:10px}.card h3{margin-bottom:7px}.card p{color:#aaa;font-size:14px}
+.about{background:#111}.contact{background:#151515}
+.contactbox{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.info{background:#0d0d0d;border-radius:12px;padding:25px;border:1px solid #292929}
+.info p{margin:12px 0;color:#ccc}
+footer{text-align:center;padding:25px;background:#080808;color:#999;font-size:13px}
+@media(max-width:700px){nav{display:none}.contactbox{grid-template-columns:1fr}.hero{padding-top:60px}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="logo">RIGHT <span>BROTHERS</span><small style="display:block;font-size:10px;color:#aaa">SHREE SHYAM PRINT</small></div>
+<nav><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<div class="lang"><button onclick="setLang('en')">EN</button><button onclick="setLang('bn')">বাংলা</button><button onclick="setLang('hi')">हिन्दी</button></div>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<p id="eyebrow">GARMENTS PRINTING • STICKERS • PATCHES</p>
+<h1 id="heroTitle">Premium Printing & <span>Sticker Solutions</span></h1>
+<p id="heroText">All types of garment stickers, patches, screen printing and tracing — quality work under one roof.</p>
+<a class="btn red" href="https://wa.me/919330993359">WhatsApp Now</a>
+<a class="btn outline" href="tel:+918013314518">Call Now</a>
+</section>
+
+<section id="services">
+<div class="title"><h2 id="serviceTitle">Our Services</h2><p id="serviceSub">Professional solutions for garments, fashion & custom printing.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🔥</div><h3>DTF Sticker</h3><p>High-quality DTF transfers for garments.</p></div>
+<div class="card"><div class="icon">✨</div><h3>HD Sticker</h3><p>Sharp, detailed and premium garment transfers.</p></div>
+<div class="card"><div class="icon">🧵</div><h3>Custom Patch</h3><p>Custom patches made as per your design.</p></div>
+<div class="card"><div class="icon">💧</div><h3>UV Sticker</h3><p>Durable UV sticker solutions for custom needs.</p></div>
+<div class="card"><div class="icon">🎨</div><h3>Puff Sticker</h3><p>Raised 3D-style puff effects for garments.</p></div>
+<div class="card"><div class="icon">⚡</div><h3>2-in-1 Sticker</h3><p>Creative 2-in-1 transfer solutions.</p></div>
+<div class="card"><div class="icon">👕</div><h3>Vinyl</h3><p>Custom vinyl work for garments and designs.</p></div>
+<div class="card"><div class="icon">🖨️</div><h3>Screen Printing</h3><p>Professional screen printing for garment orders.</p></div>
+<div class="card"><div class="icon">📐</div><h3>Tracing</h3><p>Tracing services for printing and production work.</p></div>
+<div class="card"><div class="icon">🧺</div><h3>Towel</h3><p>Custom towel-related printing and work.</p></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="title"><h2 id="aboutTitle">Why Right Brothers?</h2><p id="aboutText">One place for garment printing and sticker requirements.</p></div>
+<div class="grid">
+<div class="card"><h3>Quality First</h3><p>We focus on clean finishing and professional output.</p></div>
+<div class="card"><h3>Custom Orders</h3><p>Bring your idea or design — custom work is available.</p></div>
+<div class="card"><h3>Multiple Solutions</h3><p>DTF, HD, UV, Puff, Vinyl, patches, screen printing and tracing.</p></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="title"><h2 id="contactTitle">Contact Us</h2><p>Right Brothers [Shree Shyam Print]</p></div>
+<div class="contactbox">
+<div class="info">
+<h3>📞 Mobile</h3>
+<p>+91 80133 14518</p><p>+91 84209 10140</p><p>+91 74390 47222</p><p>+91 93309 93359</p>
+<a class="btn red" href="https://wa.me/919330993359">WhatsApp: +91 93309 93359</a>
+</div>
+<div class="info">
+<h3>📍 Address</h3>
+<p>Rupraj Plaza, Laundry More,<br>79, Panchanantala Rd, Sukchar,<br>Kolkata, West Bengal 700115</p>
+<a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=Rupraj+Plaza+Laundry+More+79+Panchanantala+Road+Sukchar+Kolkata+700115">Open in Google Maps</a>
+<a class="btn outline" href="https://www.facebook.com/share/18ChChYTzi/">Facebook</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Right Brothers [Shree Shyam Print] — All Rights Reserved.</footer>
+
+<script>
+const data={
+en:{eyebrow:"GARMENTS PRINTING • STICKERS • PATCHES",hero:"Premium Printing & <span>Sticker Solutions</span>",text:"All types of garment stickers, patches, screen printing and tracing — quality work under one roof.",services:"Our Services",sub:"Professional solutions for garments, fashion & custom printing.",about:"Why Right Brothers?",aboutText:"One place for garment printing and sticker requirements.",contact:"Contact Us"},
+bn:{eyebrow:"গার্মেন্টস প্রিন্টিং • স্টিকার • প্যাচ",hero:"প্রিমিয়াম প্রিন্টিং ও <span>স্টিকার সলিউশন</span>",text:"সব ধরনের গার্মেন্টস স্টিকার, প্যাচ, স্ক্রিন প্রিন্টিং ও ট্রেসিং—সবকিছু এক ছাদের নিচে।",services:"আমাদের পরিষেবা",sub:"গার্মেন্টস, ফ্যাশন ও কাস্টম প্রিন্টিংয়ের জন্য প্রফেশনাল সমাধান।",about:"কেন Right Brothers?",aboutText:"গার্মেন্টস প্রিন্টিং ও স্টিকারের জন্য এক নির্ভরযোগ্য ঠিকানা।",contact:"যোগাযোগ করুন"},
+hi:{eyebrow:"गारमेंट प्रिंटिंग • स्टिकर • पैच",hero:"प्रीमियम प्रिंटिंग और <span>स्टिकर सॉल्यूशन्स</span>",text:"सभी प्रकार के गारमेंट स्टिकर, पैच, स्क्रीन प्रिंटिंग और ट्रेसिंग—एक ही जगह।",services:"हमारी सेवाएं",sub:"गारमेंट, फैशन और कस्टम प्रिंटिंग के लिए प्रोफेशनल समाधान।",about:"Right Brothers क्यों?",aboutText:"गारमेंट प्रिंटिंग और स्टिकर की जरूरतों के लिए एक भरोसेमंद जगह।",contact:"संपर्क करें"}
+};
+function setLang(l){let d=data[l];document.getElementById('eyebrow').innerText=d.eyebrow;document.getElementById('heroTitle').innerHTML=d.hero;document.getElementById('heroText').innerText=d.text;document.getElementById('serviceTitle').innerText=d.services;document.getElementById('serviceSub').innerText=d.sub;document.getElementById('aboutTitle').innerText=d.about;document.getElementById('aboutText').innerText=d.aboutText;document.getElementById('contactTitle').innerText=d.contact}
+</script>
+</body>
+</html>
